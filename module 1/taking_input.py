@@ -1,0 +1,15 @@
+name = input ("Enter your name please :")
+print ("good evening , Your name is ",name,"i know that ." )
+
+name = input ("enter your name :")
+print("oh ! ",name )
+print ("by default it will take your input as string only .")
+
+print ("if we want to change the data type then we need to do type casting .")
+print ("type casting is a process of changing the datatype of any object , variable etc .")
+print ("so lets do typecasting.")
+a = input("enter any number .")
+b = int(a)
+print(a,type(a))
+print(b,type(b))
+print("typecasting is done .")
